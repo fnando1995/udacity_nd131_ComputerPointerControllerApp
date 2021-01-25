@@ -14,7 +14,7 @@ to create a class that manage the 4 models called `Integrator`. This class holds
 the loading and prediction of each model and creates the necessary pipeline 
 between outputs and inputs of each model.
 
-![pipeline](bin/pipeline.png)
+![pipeline](ComputerPointerControllerAPP/bin/pipeline.png)
 
 ## Project Set Up and Installation
 
@@ -144,7 +144,7 @@ python3 main.py \
 I create a file `benchmark.py` which benchmark all different model's precisions. below
 there is a print of the final dataframe order ascending by column INF_TIME.
 
-![benchmark](bin/benchmark.png)
+![benchmark](ComputerPointerControllerAPP/bin/benchmark.png)
 
 This benchmark was made over the first `100` frames of de `bin/demo.mp4` video.
 
